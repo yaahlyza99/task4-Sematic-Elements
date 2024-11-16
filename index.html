@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily News Website Semantic Elements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin: 0;
+        }
+        
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        main {
+            display: flex;
+            margin: 20px;
+        }
+        
+        section {
+            flex: 3;
+            margin-right: 20px;
+        }
+        
+        article {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        article h2 {
+            margin-top: 0;
+        }
+        
+        aside {
+            flex: 1;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Daily News</h1>
+        <p>Your Trusted Source for the Latest News</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">World</a>
+        <a href="#">Technology</a>
+        <a href="#">Sports</a>
+        <a href="#">Entertainment</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Articles Section -->
+        <section>
+            <article>
+                <h2>Breaking News: Global Market Update</h2>
+                <p>The global market saw a significant downturn today as major tech stocks plummeted...</p>
+                <p><a href="#">Read more</a></p>
+            </article>
+
+            <article>
+                <h2>Sports: Local Team Wins Championship</h2>
+                <p>In an exciting finish, the local team took home the championship trophy for the first time in 20 years...</p>
+                <p><a href="#">Read more</a></p>
+            </article>
+        </section>
+
+        <!-- Sidebar Section -->
+        <aside>
+            <h3>Latest Headlines</h3>
+            <ul>
+                <li><a href="#">Economy Watch: New Reports Released</a></li>
+                <li><a href="#">Tech: New Smartphone Launched</a></li>
+                <li><a href="#">Health: Tips for a Healthy Lifestyle</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us at: news@dailynews.com | Phone: (123) 456-7890</p>
+        <p>&copy; 2024 Daily News. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
